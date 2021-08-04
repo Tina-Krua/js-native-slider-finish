@@ -1,19 +1,26 @@
-
 * {
     box-sizing: border-box;
-}
-
-html {
-    font-family: "Open Sans", sans-serif;
+  }
+  
+  html {
+    font-family: $font-main;
     font-size: 16px;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
-}
-
-.carousel {
-    position: relative;
-
-    width: 100%;
-}
+  }
+  
+  .fa-angle-left,
+  .fa-angle-right {
+    color: rgba($color-light, 0.4);
+  
+    font-size: 40px;
+  }
+  
+  .fa-play-circle,
+  .fa-pause-circle {
+    color: rgba($color-light, 0.4);
+  
+    font-size: 40vh;
+  }
